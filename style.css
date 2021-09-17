@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap');
 
 :root{
-    --primary-color:#6D28D9;
-    --dark-grey: #6B7280;
-    --off-white: rgb(236, 235, 147);
+    --primary-color:#79D0F7;
+    --dark-grey: #black;
+    --off-white: rgb(238, 238, 218);
 }
 
 body{
@@ -34,16 +34,18 @@ hr{
 /* * links * */
 .link-primary{
     background-color: var(--primary-color);
-    border: 6px solid #6D28D9;
+    border: 8px solid var(--primary-color);
     border-radius:  16px;
-    color:white
+    color:black;
+    font-size: small;
 }
 
 .link-secondary{
-    background-color:  #059669;
-    border: 6px solid #059669;
+    background-color: var(--off-white);
+    border: 8px solid var(--off-white);
     border-radius:  16px;
-    color:white;
+    color:black;
+    font-size: small;
 }
 
 /* lists */
@@ -58,13 +60,13 @@ hr{
 }
 .navigation{
     background-color: var(--primary-color);
-    color: white;
+    color: black;
     padding: 1rem;
     border-bottom-left-radius: 2rem;
 }
 
 .navigation .link{
-    color: white;
+    color: black;
     padding: 0px 18px;
 }
 .navigation .navpills{
@@ -78,6 +80,7 @@ hr{
 
 .navigation .link-active{
     font-weight: bolder;
+    color: var(--off-white);
 }
 
 .hero{
@@ -115,11 +118,12 @@ color:var(--primary-color );
 }
 
 .footer{
-    background-color: black;
-    color: white;
-    padding: 2rem 1rem;
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem 1rem;
     text-align: center;
     border-top-right-radius: 2rem;
+    margin-top: 1rem;
 }
  
 .footer .link{
@@ -129,4 +133,8 @@ color:var(--primary-color );
 
 .footer ul{
     padding-inline-start: 0px;
+}
+.footer .footer-header{
+    font-size: larger;
+    font-weight: bolder;
 }
