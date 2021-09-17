@@ -138,3 +138,7 @@ color:var(--primary-color );
     font-size: larger;
     font-weight: bolder;
 }
+
+.p-small{
+    font-size:small;
+}
