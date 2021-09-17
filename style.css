@@ -41,8 +41,16 @@ hr{
     background-color:  #059669;
     border: 6px solid #059669;
     border-radius:  16px;
-    color:white
+    color:white;
 }
 
+/* lists */
 
+.lists-non-bullets{
+    list-style: none;
+}
 
+.list-item-inline{
+    display: inline;
+    padding: 0 rem 0.5 rem;
+}
