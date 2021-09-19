@@ -6,10 +6,16 @@
     --off-white: rgb(238, 238, 218);
 }
 
+*{
+    margin:0px;
+    padding:0px
+ }
+
 body{
     font-family: 'Montserrat', 
     sans-serif;
     margin: 0px;
+    padding: 0px;
 }
 hr{
     margin: 3 rem 0 rem;
