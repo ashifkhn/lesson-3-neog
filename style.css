@@ -51,11 +51,12 @@ hr{
 }
 
 .link-secondary{
-    background-color: var(--off-white);
-    border: 8px solid var(--off-white);
+    background-color: var(--primary-color);
+    border: 8px solid var(--primary-color);
     border-radius:  16px;
     color:black;
     font-size: small;
+    margin: 20px;
 }
 
 /* lists */
@@ -140,6 +141,7 @@ color:var(--primary-color );
 .footer .link{
     color: white;
     padding: 0.5rem;
+   
 }
 
 .footer ul{
