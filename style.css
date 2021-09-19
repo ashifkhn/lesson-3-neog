@@ -7,15 +7,15 @@
 }
 
 *{
-    margin:0px;
-    padding:0px
- }
+ padding:0px ; 
+ margin: 0px;  
+}
 
 body{
     font-family: 'Montserrat', 
     sans-serif;
     margin: 0px;
-    padding: 0px;
+    padding: 0px;    
 }
 hr{
     margin: 3 rem 0 rem;
@@ -36,6 +36,9 @@ hr{
 .link {
     text-decoration: none;
     padding: 0.5 rem 1 rem;
+    margin: 1rem;
+    display: inline-block;
+    
 }
 /* * links * */
 .link-primary{
@@ -44,6 +47,7 @@ hr{
     border-radius:  16px;
     color:black;
     font-size: small;
+    margin: 20px;
 }
 
 .link-secondary{
@@ -134,7 +138,7 @@ color:var(--primary-color );
  
 .footer .link{
     color: white;
-    padding: 5rem;
+    padding: 0.5rem;
 }
 
 .footer ul{
