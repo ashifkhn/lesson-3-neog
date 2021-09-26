@@ -136,6 +136,7 @@ color:var(--primary-color );
     text-align: center;
     border-top-right-radius: 2rem;
     margin-top: 1rem;
+    
 }
  
 .footer .link{
@@ -154,4 +155,12 @@ color:var(--primary-color );
 
 .p-small{
     font-size:small;
+}
+
+.blog-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
