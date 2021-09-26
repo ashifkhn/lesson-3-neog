@@ -169,9 +169,8 @@ color:var(--primary-color );
 
 
 @media only screen and (max-width: 500px) {
-    body {
-      
-    }
+
+    
 
     .navigation{
         flex-direction: column;
@@ -187,4 +186,9 @@ color:var(--primary-color );
         display: block;
     }
 
-  }
+
+    footer{
+        font-size: smaller;
+        
+    }
+}
