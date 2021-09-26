@@ -164,10 +164,30 @@ color:var(--primary-color );
     font-size:small;
 }
 
-.blog-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      
+    }
+
+    .navigation{
+            height: 10vh;
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 10;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+    }
+
+    .hero-heading{
+        text-align: center;
+    }
+
+  }
