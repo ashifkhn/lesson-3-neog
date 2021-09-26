@@ -115,6 +115,12 @@ hr{
 color:var(--primary-color );
 }
 
+.hero .hero-image-small{
+    max-width:  120px;
+    display: block;
+    margin: auto;
+}
+
 /* section */
 
 .section{
