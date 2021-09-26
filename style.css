@@ -168,26 +168,23 @@ color:var(--primary-color );
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     body {
       
     }
 
     .navigation{
-            height: 10vh;
-            position: fixed;
-            top: 0;
-            right: 0;
-            left: 0;
-            z-index: 10;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            display: flex;
+        flex-direction: column;
     }
-
-    .hero-heading{
-        text-align: center;
+    .navigation ul li a{
+        font-size: 1rem;
+        padding: 0px 7px;
+        padding-bottom: 8px;
+    }
+    .hero-image{
+        height: 60px;
+        margin: auto;
+        display: block;
     }
 
   }
