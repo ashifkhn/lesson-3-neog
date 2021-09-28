@@ -122,6 +122,10 @@ color:var(--primary-color );
     margin: auto;
 }
 
+.de-coder{
+    text-decoration: none;
+    color: black;
+}
 /* section */
 
 .section{
