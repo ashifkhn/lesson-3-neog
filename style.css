@@ -151,7 +151,7 @@ color:var(--primary-color );
 }
  
 .footer .link{
-    color: white;
+    color: rgb(241, 241, 233);
     padding: 0.5rem;
    
 }
