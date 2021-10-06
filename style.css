@@ -69,6 +69,7 @@ hr{
 .list-item-inline{
     display: inline;
     padding: 0 rem 0.5 rem;
+    font-size: 1.2rem;
 }
 .navigation{
     background-color: var(--primary-color);
